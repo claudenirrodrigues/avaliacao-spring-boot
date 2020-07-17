@@ -1,0 +1,4 @@
+Claudenir Rodrigues de Oliveira
+
+
+Nota - A classe EstudanteRestController não foi alterada, pois, entendi que era para ser implementado caso não solucionasse os problemas do frontend.

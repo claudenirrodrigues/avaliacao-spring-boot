@@ -1,6 +1,7 @@
 package br.com.tokiomarine.seguradora.avaliacao.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import javax.validation.Valid;
 
@@ -12,7 +13,9 @@ public interface EstudandeService {
 
 	void cadastrarEstudante(@Valid Estudante estudante);
 
-	Estudante buscarEstudante(long id);
+	Optional<Estudante> buscarEstudante(long id);
 
 	void atualizarEstudante(@Valid Estudante estudante);
+
+	void apagarEstudante(@Valid long id);
 }
